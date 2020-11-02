@@ -239,9 +239,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	url(../img/Cup.png);
 	background-position: 129px -14px,
 		right 162px top -9px,
-		bottom -23px right 109px;
+		bottom -24px right 107px;
 	background-repeat: no-repeat;
-	background-size: 172px;
+	background-size: 175px, 165px, 158px;
 
 }
 
