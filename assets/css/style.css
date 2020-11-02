@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .header__button {
-	margin: 0 auto;
+	margin: -3px 0 0 3px;
 }
 
 .header__button a {
@@ -148,7 +148,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	letter-spacing: 3px;
 	font-weight: 400;
 	color: #ffffff;
-	padding: 16px 48px 16px;
+	padding: 17px 50px 16px;
 	width: 200px;
 	height: 40px;
 	border-radius: 3px;
@@ -159,7 +159,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	font-size: 13px;
 	letter-spacing: 1px;
 	line-height: 26px;
-	color: #282828;
+	color: #767779;
 	font-weight: 400;
 	text-align: center;
 }
