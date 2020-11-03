@@ -129,6 +129,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	flex-shrink: 0;
 	margin: 40px auto 30px;
 }
+
+.header__play-icon a:hover {
+	background-color: #ff6d6d;
+}
+
 .header__play-icon img {
 	width: 17px;
 	height: 19px;
@@ -152,9 +157,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	width: 200px;
 	height: 40px;
 	border-radius: 3px;
-	background-color: #ff6d6d;
-	
+	background-color: #ff6d6d;	
 }
+
+.header__button a:hover {
+	background-color: #e65a5a;
+}
+
 .header__sub {
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -571,15 +580,21 @@ form {
 }
 .user input::placeholder {
 	color: #f6f5f3;
-	
 }
 
-/* якорь с первой страницы */
+.user input:hover::placeholder {
+	color: #ff6d6d;
+}
+
 .user button {
 	background-color: #ff6d6d;
 	border: none;
 	text-align: center;
 	position: relative;
+}
+
+.user button:hover {
+	background-color: #e65a5a;
 }
 
 .user__forms::before {
@@ -693,6 +708,10 @@ form {
 	font-size: 16px;
 }
 
+.footer__column input:hover::placeholder {
+	color: #ff6d6d;
+}
+
 .footer__column button {
 	width: 52px;
 	height: 50px;
@@ -705,6 +724,10 @@ form {
 	background-position: center;
 	position: relative;
 	left: -2px;
+}
+
+.footer__column button:hover {
+	background-color: #e65a5a;
 }
 
 .footer__fonts {
